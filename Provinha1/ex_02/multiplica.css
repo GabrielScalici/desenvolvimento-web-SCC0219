@@ -1,0 +1,22 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-top: 5px;
+}
+th, td {
+	padding: 5px;
+	text-align: center;
+}
+
+.element {
+	display: inline-block;
+	vertical-align: top;
+}
+
+input#output {
+	margin-top: 1em;
+}
+
+button {
+	margin: 10px;
+}

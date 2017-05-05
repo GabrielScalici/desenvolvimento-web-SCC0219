@@ -1,0 +1,136 @@
+<!--
+  NAO COMPLETO POIS PRECISARAM USAR A SALA\
+  EXERCICIO 2 DA PROVINHA 1
+  GABRIEL HENRIQUE CAMPOS SCALICI
+  9292970
+
+-->
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <title>Multiplicacao de matriz</title>
+				<link rel="stylesheet" href="/multiplica.css" type="text/css" title="Multiplicar" charset="utf-8">
+    </head>
+    <body>
+				<div>
+						<div class="element">
+								<table>
+										<thead>
+												<tr>
+														<th colspan="3">A(3x3)</th>
+												</tr>
+										</thead>
+										<tbody>
+												<tr>
+														<td>A<sub>11</sub><input id="a11" type="text" /></td>
+														<td>A<sub>12</sub><input id="a12" type="text" /></td>
+														<td>A<sub>13</sub><input id="a13" type="text" /></td>
+												</tr>
+												<tr>
+														<td>A<sub>21</sub><input id="a21" type="text" /></td>
+														<td>A<sub>22</sub><input id="a22" type="text" /></td>
+														<td>A<sub>23</sub><input id="a23" type="text" /></td>
+												</tr>
+												<tr>
+														<td>A<sub>31</sub><input id="a31" type="text" /></td>
+														<td>A<sub>32</sub><input id="a32" type="text" /></td>
+														<td>A<sub>33</sub><input id="a33" type="text" /></td>
+												</tr>
+										</tbody>
+								</table>
+						</div>
+						<p class="element"> * </p>
+						<div class="element">
+								<table>
+										<thead>
+												<tr>
+														<th colspan="3">B(3x2)</th>
+												</tr>
+										</thead>
+										<tbody>
+												<tr>
+														<td>B<sub>11</sub><input id="b11" type="text"/></td>
+														<td>B<sub>12</sub><input id="b12" type="text"/></td>
+												</tr>
+												<tr>
+														<td>B<sub>21</sub><input id="b21" type="text"/></td>
+														<td>B<sub>22</sub><input id="b22" type="text"/></td>
+												</tr>
+												<tr>
+														<td>B<sub>31</sub><input id="b31" type="text" /></td>
+														<td>B<sub>32</sub><input id="b32" type="text" /></td>
+												</tr>
+										</tbody>
+								</table>
+						</div>
+        <p class="element">=</p>
+        <div class="element">
+            <table margin-top: '5px'>
+                <thead>
+                    <tr>
+                        <th colspan="3">C(3x2)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>C<sub>11</sub><input id="c11" type="text" /> </td>
+                      <td>C<sub>12</sub><input id="c12" type="text" /> </td>
+                    </tr>
+                    <tr>
+                      <td>C<sub>21</sub><input id="c21" type="text"/> </td>
+                      <td>C<sub>22</sub><input id="c22" type="text"/> </td>
+                    </tr>
+                    <tr>
+                      <td>C<sub>31</sub><input id="c31" type="text" /> </td>
+                      <td>C<sub>32</sub><input id="c32" type="text" /> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+        </div>
+				<button onclick="multiplica()">Multiplicar!</button>
+
+        <script>
+
+        function multiplica(){
+
+        	na11 = parseFloat(document.getElementById("a11").value);
+        	na12 = parseFloat(document.getElementById("a12").value);
+        	na13 = parseFloat(document.getElementById("a13").value);
+        	na21 = parseFloat(document.getElementById("a21").value);
+        	na22 = parseFloat(document.getElementById("a22").value);
+        	na23 = parseFloat(document.getElementById("a23").value);
+        	na31 = parseFloat(document.getElementById("a31").value);
+        	na32 = parseFloat(document.getElementById("a32").value);
+        	na33 = parseFloat(document.getElementById("a33").value);
+
+          nb11 = parseFloat(document.getElementById("b11").value);
+          nb12 = parseFloat(document.getElementById("b12").value);
+          nb21 = parseFloat(document.getElementById("b21").value);
+          nb22 = parseFloat(document.getElementById("b22").value);
+          nb31 = parseFloat(document.getElementById("b31").value);
+          nb32 = parseFloat(document.getElementById("b32").value);
+
+          nc11 = document.getElementById("c11");
+          nc12 = document.getElementById("c12");
+          nc21 = document.getElementById("c21");
+          nc22 = document.getElementById("c22");
+          nc31 = document.getElementById("c31");
+          nc32 = document.getElementById("c32");
+
+
+        	nc11.value = (na11*nb11)+(na12*nb21)+(na13*nb31);
+        	nc12.value = (na11*nb12)+(na12*nb22)+(na13*nb32);
+        	nc21.value = (na21*nb11)+(na22*nb21)+(na23*nb31);
+        	nc22.value = (na21*nb12)+(na22*nb22)+(na23*nb32);
+        	nc31.value = (na31*nb11)+(na32*nb21)+(na33*nb31);
+        	nc32.value = (na31*nb12)+(na32*nb22)+(na33*nb32);
+
+}
+      </script>
+
+
+		</body>
+</html>
