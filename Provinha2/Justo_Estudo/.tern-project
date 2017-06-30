@@ -1,0 +1,15 @@
+{
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+  ],
+  "esversion": 6,
+  "plugins": {
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {}
+    },
+	"node": {}
+  }
+}

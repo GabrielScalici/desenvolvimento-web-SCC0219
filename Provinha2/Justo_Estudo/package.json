@@ -1,0 +1,14 @@
+{
+	"name": "provinha2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Roberto P. Alegro",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.15.3"
+	}
+}
