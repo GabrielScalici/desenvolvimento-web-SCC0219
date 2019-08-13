@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://media.giphy.com/media/c9IdCLK8TDv1e/giphy.gif"/>
-  <h1 align="center"> ICMC - USP - São Carlos </h1>
-  <p align="center"> SCC0219 - Introdução ao Desenvolvimento Web </p>
+  <h1 align="center"> SCC0219 - Introdução ao Desenvolvimento Web</h1>
+  <p align="center"> ICMC - USP - São Carlos  </p>
 </p>
 
 <p align="center">
