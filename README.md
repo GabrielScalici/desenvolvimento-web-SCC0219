@@ -18,4 +18,7 @@
 
 # :ledger: Bibliografia
 
-Texto: - Nicholas Zakas, Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers 1st. No Starch Press. 2016. - Responsive Web Design with HTML5 and CSS3, Ben Frain, PACKT Bibliografia Complementar: - HTML and CSS: Design and Build Websites, Jon Duckett, Wiley, ISBN-13: 978-1118008188 - Node.js in Practice, Alex R. Young and Marc Harter, Manning, ISBN-13: 978-1617290930
+* Nicholas Zakas, Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers 1st. No Starch Press. 2016.
+* Responsive Web Design with HTML5 and CSS3, Ben Frain, PACKT
+* HTML and CSS: Design and Build Websites, Jon Duckett, Wiley, ISBN-13: 978-1118008188
+* Node.js in Practice, Alex R. Young and Marc Harter, Manning, ISBN-13: 978-1617290930
